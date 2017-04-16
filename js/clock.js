@@ -26,3 +26,5 @@ function getTimeString() {
   
   return hours + ':' + minutes + ':' + seconds + ' ' + amPm;
 }
+
+setInterval(setClock, 1000);
