@@ -1,5 +1,25 @@
+body {
+  background-color: #DDD5CC;
+}
+
 #clock {
-  text-align: center;
+  width: 700px;
+  padding: 30px;
+  margin:100px auto 60px;
+  background-color: #110F08;
+}
+
+#clock-plate{
+  padding:20px;
+  background-color: #BBAEA5;
+}
+
+#clock-display{
+  text-align:center;
+  padding: 5px;
+  border-radius:6px;
+  background-color: #240509;
   font-size: 5em;
   font-family: 'PT Mono', monospace;
+  color: #F20278;
 }

@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 function setClock() {
-  $('#clock').text(getTimeString());
+  $('#clock-display').text(getTimeString());
 }
 
 function getTimeString() {
